@@ -30,7 +30,7 @@ class Retangulo {
     }
 
     public double getLargura() {
-        return largura;
+        return this.largura;
     }
 
     public void setLargura(Scanner scanner) {
