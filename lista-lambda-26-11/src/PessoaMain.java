@@ -33,7 +33,6 @@ public class PessoaMain {
         System.out.println();
 
 
-        // 3. Aplicar desconto baseado em uma regra (salário > 4000 reduzido em 10%)
         pessoas.forEach(pessoa -> {
             System.out.println("Pessoa: " + pessoa.getNome());
             System.out.println("Salário antigo: " + pessoa.getSalario());
