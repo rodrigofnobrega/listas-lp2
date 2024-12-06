@@ -29,6 +29,7 @@ public class SistemaEstoqueMain {
             scanner.nextLine();
             System.out.print("Deseja adicionar outro produto [s/n]? ");
             continuar = scanner.nextLine();
+            System.out.println();
 
             estoque.put(id, new Produto(nome, quantidade));
 
@@ -40,7 +41,7 @@ public class SistemaEstoqueMain {
                 continue;
             }
 
-            System.out.println("ID: " + produto.getKey() + " - Nome: " + produto.getValue().getNome()
+            System.out.println("ID: " + produto.getKey() + " - Produto: " + produto.getValue().getNome()
                     + " - Quantidade: " + produto.getValue().getQuantidade());
         }
 
